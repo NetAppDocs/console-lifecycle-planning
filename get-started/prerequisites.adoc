@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: get-started/prerequisites.html
+keywords: what are NetApp lifecycle planning requirements, lifecycle planning prerequisites
+summary: Get started with NetApp lifecycle planning by verifying support for your environment, network access, login and web browser.
+---
+
+= Lifecycle planning prerequisites
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/get-started/
+
+[.lead]
+Get started with Lifecycle planning by verifying the readiness of your operational environment, login, and network access. To use Lifecycle planning, you should ensure that your environment meets all requirements.
+
+* Your environment must meet all NetApp Console requirements including a login and network access from a web browser. 
++
+Refer to the https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html[NetApp Console Quick start^] and https://docs.netapp.com/us-en/bluexp-setup-admin/reference-networking-saas-console.html[NetApp Console networking information^].
+
+* You need to have access credentials to the clusters. 
+
+* While not a requirement, it is helpful if the NetApp Console agent is in place and enabled and the ONTAP system is discovered. If not, the service walks you through those processes. 
+
+* If you plan on tiering cold data to cloud storage, ensure that the cluster is eligible per the license. 
+
+
+

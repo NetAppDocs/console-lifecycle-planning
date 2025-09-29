@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: use/capacity-remediate-overview.html
+keywords: lifecycle planning remediate, lifecycle planning, capacity planning, economic efficiency,bluexp
+summary: NetApp lifecycle planning Capacity planning uses AI to forecast data growth to help in the planning process. 
+---
+
+= Review and remediate capacity issues identified by Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/use/
+
+[.lead]
+Capacity planning involves identifying low-capacity areas in your environment, both current and forecasted. Lifecycle planning uses AI to forecast data growth to help in the planning process. Lifecycle planning identifies those low-capacity areas in your environment.
+
+Using Lifecycle planning, you can accomplish these goals:
+
+* link:../use/capacity-review-status.html[Review capacity status]
+//* link:../use/capacity-add.html[Add capacity]
+* link:../use/capacity-tier-data.html[Tier cold data to cloud storage and free up storage]
+* link:../use/capacity-reminders.html[Select no action and set reminders to check again]
+

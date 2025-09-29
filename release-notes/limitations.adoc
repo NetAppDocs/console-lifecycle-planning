@@ -1,0 +1,16 @@
+---
+sidebar: sidebar
+permalink: release-notes/limitations.html
+keywords: economic efficiency, bluexp, lifecycle planning, 
+summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the service, or that do not interoperate correctly with it.
+---
+
+= Limitations
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Known limitations identify platforms, devices, or functions that are not supported by this release of the service, or that do not interoperate correctly with it. 
+
+

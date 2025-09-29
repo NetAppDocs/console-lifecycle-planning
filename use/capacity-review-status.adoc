@@ -1,0 +1,44 @@
+---
+sidebar: sidebar
+permalink: use/capacity-review-status.html
+keywords: lifecycle planning remediate, lifecycle planning, capacity planning, forecast, capacity, storage, economic efficiency
+summary: If your clusters are currently below or forecasted to be below the threshold of 70% capacity, Lifecycle planning identifies those as low-capacity resources and alerts you.
+---
+
+= Review capacity status in Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/use/
+
+[.lead]
+If storage assets in your environment are currently below or forecasted to be below the threshold of 90% capacity, Lifecycle planning identifies those as low-capacity resources and alerts you. Additionally, Lifecycle planning provides recommendations on whether you should tier data.
+
+You can review the following types of data to assist in the capacity issue resolution. 
+
+* Platform
+* Country where asset is located 
+* Current and forecasted capacity by month
+//* Capacity utilization and percent 
+//* Latency trends
+//* IOPS trends
+
+.Steps 
+
+. link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
+. From the left navigation, select *Capacity*. 
++
+image:capacity-page.png[Capacity page showing a list of systems]
+
+. From the Capacity page, select a system. 
++
+image:capacity-evaluate-storage-capacity.png[Capacity page in Lifecycle planning]
+. Select *Evaluate Storage Options* for the asset.
+. Choose one of the options: 
++
+//* *Add Capacity*: Continue by link:../use/capacity-add.html[adding capacity].
+* *Best Practices*: Continue by clicking on the link to view best practices. 
+* *Tier cold data*: Continue by link:../use/capacity-tier-data.html[tiering cold data to cloud storage and freeing up storage].
+* *No action needed*: Continue by link:../use/capacity-reminders.html[selecting no action and setting reminders to check again].
+
+
+

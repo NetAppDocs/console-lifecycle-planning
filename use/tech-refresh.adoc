@@ -1,0 +1,171 @@
+---
+sidebar: sidebar
+permalink: use/tech-refresh.html
+keywords: lifecycle planning, tech refresh, technology update, hardware assessment
+summary: If you have existing assets in place and want to have an assessment to identify whether a technology refresh is recommended, you can use  Lifecycle planning tech refresh option. The process takes an assessment of your current workloads and assets and provides recommendations to you on how to proceed. Or, you can try out a workload simulation.  
+---
+
+= Evaluate a technology refresh by using Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/use/
+
+[.lead]
+If you have existing assets in place and want to determine whether a technology refresh is recommended, you can use the Lifecycle planning Tech refresh options. You can either review a short assessment of your current workloads and get recommendations, or if you have sent AutoSupport logs to NetApp within the past 90 days, the service can provide a workload simulation to see how your workloads perform on new hardware. 
+
+* <<Take a refresh assessment>>
+* <<Simulate workloads on new hardware>>
+
+Systems are considered candidates for a tech refresh based on the following: 
+
+* Nearing the end of the Tech Support contract
+* Nearing the end of the hardware lifecycle
+
+TIP: You can access this feature either through Lifecycle planning or through Digital Advisor.
+
+== Take a refresh assessment 
+
+The assessment includes the following steps: 
+
+* Select the systems you want to assess. 
+* Specify your requirements regarding environments, workload types, capacity, performance, and budget. 
+* View the recommendations regarding appropriate products and cloud services that might improve performance in your environment. 
+
+
+
+.Steps 
+
+. link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
+. Select *Tech refresh*. 
++
+image:tech-refresh.png[Tech refresh page showing the Tech refresh candidates]
+. Look at the *Tech refresh candidates* tab, which lists all the systems that might benefit from a tech refresh. 
+. Select the system on which you want to obtain an assessment. 
+. From the Actions column, select *Evaluate refresh*. 
++
+image:tech-refresh-systems.png[Systems to be included in the tech refresh]
+. Select the system or systems on which you want the assessment performed and select *Next*. 
+. Define the requirements: 
+.. *Environments*: Select the types of environment that you want: public cloud, hybrid cloud, or on-premises. 
++
+image:tech-refresh-requirements-environments4.png[Tech refresh Requirements page showing environment choices]
+
+.. *Workloads*: Select all the types of workloads that you want to handle: Business critical applications, high performance analytics and computing, data lakes and media workflows, secondary storage, or less critical workloads. 
++
+image:tech-refresh-requirements-workload-tiles.png[Workload choices]
+.. *Capacity*: Enter the capacity requirements in TiB, slide the slider to the value, or place your cursor on the value in the slider and select *Next*. 
+.. *Performance*: Select the performance aspects that you want to be able to handle: lowest latency, highest IOPS, mixed workloads, or performance not important and select *Next*. 
++
+image:tech-refresh-requirements-performance-tiles.png[Performance choices]
+.. *Budget*: Enter a budget in US dollars, slide the slider to the value, or place your cursor on the value in the slider and select *Next*.
++
+A set of recommendations appears in different tabs for the options you chose. 
+
+
+. Review the recommendations. 
++
+image:tech-refresh-view-recommendations2.png[View refresh assessment recommendations page]
+. Do one or both of the following: 
+.. To download a PDF of the recommendations, select *Download*. 
+.. To connect with a NetApp Sales Representative regarding the recommendations, select *Contact Sales*. A web page shows options you can choose from to contact a NetApp Sales Representative. 
+
+. Select *Finish*.
+
+== View technology refresh assessments already taken
+
+You might want to review the technology refresh assessments that you already took and review the recommendations again.
+
+.Steps
+
+. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *Tech refresh*. 
+
+. Select the *Tech refresh candidates* tab, which lists all the systems on which you took a technology refresh assessment. Then, from the Actions menu on the row for that system, select to view the assessments and recommendations for that system. 
+
+. In the Evaluate refresh options page, select *View recommendation*.
+. View the refresh recommendations.
++
+image:tech-refresh-view-recommendations2.png[View refresh assessment recommendations page]
+
+
+== Simulate workloads on new hardware 
+
+If you have sent AutoSupport logs in to NetApp within the past 90 days, NetApp is able to provide a simulation to see how your workloads perform on new hardware. 
+
+You can include or exclude specific workloads from the simulation. You can also add workloads if they don't appear in the existing workload list. 
+
+.Steps 
+
+. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *Tech refresh*. 
++
+image:tech-refresh-list2.png[Tech refresh page showing the Tech refresh candidates tab]
+. Look at the *Tech refresh candidates* tab, which lists all the systems that might benefit from a tech refresh. 
+. Select the system on which you want to obtain an assessment. 
+. In the Actions column, select *Evaluate refresh*. 
++
+NOTE: lifecycle planning imports workload details in preparation for the simulation.
+
++
+image:tech-refresh-simulation-requirements3.png[Simulate workloads page showing the requirements options]
+. In the Simulate workloads > Workload requirements page, do the following: 
+.. To add a workload not already in the list, select *Add workload*. For details, see <<Add a workload>>.
+.. *IOPS*: Optionally, change the IOPs that you want for your new hardware. 
+.. *Capacity (TiB)*: Optionally, change the capacity that you want for your new hardware. 
+
+. To exclude workloads, in the Actions column, select the *Exclude workload from simulation* option. 
++
+TIP: To include previously excluded workloads, select the *Excluded workloads* tab and select the *Include workload in simulation* option. 
+.. Select *Next*. 
+
+. Review the simulated results on new hardware on the Configuration page: 
++
+image:tech-refresh-simulation-results2.png[Simulate workloads page showing the simulation results]
++
+TIP: The best recommendations are denoted with a "Best" indication. 
+. To download a PDF of the recommendations, select *Download*. 
+
+. To connect with a NetApp Sales representative regarding the recommendations:
+.. Select *Contact*.
+.. Enter contact details. 
+.. Add special notes for the NetApp Sales Representative. 
+
+.. Select *Confirm and submit*. 
+
+. Select *Finish*.
+
+.Result
+
+The recommendations from the workload simulation are sent to a NetApp Sales Representative. You will also receive an email confirming the recommendations. A NetApp Sales Representative will respond to your request. 
+
+== Add a workload 
+You can add a workload that is not already listed to the workload simulation. 
+
+.Steps 
+
+. link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
+. Select *Tech refresh*. 
++
+image:tech-refresh-list2.png[Tech refresh page showing the Tech refresh candidates tab]
+ 
+. Select the system. 
+. In the Actions column, select *Evaluate refresh*. 
+
++
+image:tech-refresh-simulation-requirements3.png[Simulate workloads page showing the requirements options]
+
+. In the Simulate workloads > Workload requirements page, select *Add workload*. 
++
+image:tech-refresh-workload-add2.png[Add workload page]
+
+. Select the application, enter a workload name, and select a workload size. 
+
+. Enter the workload's expected capacity and performance values. 
++
+NOTE: If you chose the workload size of small, typical or one that is IO intensive, default values appear. 
+
+. Optionally, select the Advanced options arrow and change the defaults for the following information: 
+* *Storage efficiency*: A typical data reduction ratio might be 2 to 1. 
+* *Random reads %*: A typical average IO size for a random read is 16K. 
+* *Sequential reads %*: A typical read pattern is 50% random and 50% sequential. 
+* *Random writes %*: A typical average IO size for a random write is 32K. 
+* *Sequential writes %*: A typical write pattern is 50% random and 50% sequential. 
+

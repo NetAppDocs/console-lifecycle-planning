@@ -1,14 +1,44 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+  title: Lifecycle planning documentation
+  lead: Lifecycle planning identifies clusters with current or forecasted low capacity and provides you recommendations on data tiering. 
+  summary: Lifecycle planning identifies clusters with current or forecasted low capacity and provides you recommendations on data tiering. 
+  keywords: technology refresh, tech refresh, AFF, capacity, economic efficiency, bluexp, data tier, hardware end of life, lifecycle planning
+  tiles:
+  - title: Get started
+    #image: ./media/outline_directions_run_black_18dp.png
+    links:
+    - title: Learn about Lifecycle planning
+      url: /get-started/intro.html
+    - title: What's new in Lifecycle planning
+      url: /release-notes/whats-new.html
+#   - title: Release notes
+#     url: /release-notes/rn_overview.html
+    - title: Quick start
+      url: /get-started/quick-start.html
+    - title: Prerequisites
+      url: /get-started/prerequisites.html
+    - title: Log in to Lifecycle planning
+      url: /get-started/capacity-login.html
+    - title: FAQ
+      url: /get-started/faq.html 
+  - title: Use Lifecycle planning
+    links:
+    - title: Review and remediate capacity issues
+      url: /use/capacity-remediate-overview.html
+    - title: Review capacity status
+      url: /use/capacity-review-status.html
+    - title: Add capacity
+      url: /use/capacity-add.html
+    - title: Tier cold data to cloud storage
+      url: /use/capacity-tier-data.html
+    - title: Set reminders to check again
+      url: /use/capacity-reminders.html
+  - title: Blogs & community
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/    
+    - title: NetApp Community
+      url: https://community.netapp.com
+      

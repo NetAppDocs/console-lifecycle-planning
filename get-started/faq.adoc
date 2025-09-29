@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: get-started/faq.html
+keywords: economic efficiency faq, lifecycle planning frequently asked questions
+summary: This FAQ can help if you're just looking for a quick answer to a question.
+---
+
+= Frequently asked questions for Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question about Lifecycle planning.
+
+
+== Access to Lifecycle planning
+
+
+*What's the Lifecycle planning URL?*
+
+
+For the URL, in a browser, enter: https://console.netapp.com/[https://console.netapp.com/^] to access the the NetApp Console. 
+
+== Licensing
+
+*Do you need a license to use Lifecycle planning?*
+
+A NetApp License File (NLF) is not required.
+
+
+

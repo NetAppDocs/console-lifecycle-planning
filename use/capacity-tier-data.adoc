@@ -1,0 +1,53 @@
+---
+sidebar: sidebar
+permalink: use/capacity-tier-data.html
+keywords: economic efficiency remediate, economic efficiency, capacity planning, add capacity, lifecycle planning
+summary: Lifecycle planning provides recommendations based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, the service presents recommendations that satisfy the projected capacity growth and are most optimal for the asset configuration. One of the recommendations might be to tier cold data to cloud storage to free up capacity. This recommendation initiates the connection to NetApp Cloud Tiering, another  product.  
+---
+
+= Tier cold data to cloud storage and free up storage identified by Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/use/
+
+[.lead]
+Lifecycle planning provides recommendations based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, lifecycle planning presents recommendations that satisfy the projected capacity growth and are most optimal for the storage asset configuration. One of the recommendations might be to tier cold data to cloud storage to free up capacity. This recommendation initiates the connection to NetApp Cloud Tiering, another product.
+
+From there, you can tier the data and easily return to Lifecycle planning to take action on other systems.
+
+The cloud tiering process includes these processes: 
+
+* Deploy a Console agent 
+* Discover the cluster
+* Set up tiering to the cloud
+
+
+.Steps 
+
+. link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
+. Select *Evaluate Storage Options* for the asset.
+. Select *Tier Cold Data*.
+
+
+. The next steps depend on whether you have the Console agent deployed already and the cluster discovered: 
++
+* If you need to deploy the Console agent, refer to the NetApp Console documentation that describes https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[How to create the Console agent^]. Otherwise, if you already deployed the Console agent, the option to deploy the agent does not appear.  
+* If the service needs to discover the cluster, refer to https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Discover on-premises ONTAP clusters^]. Otherwise, if the cluster has already been discovered, the option to discover the cluster does not appear. 
++
+Lifecycle planning initiates the connection to NetApp Cloud Tiering, another product.
++
+image:capacity-tier-cold-data.png[Capacity page showing the option to tier cold data]
+
+. Select *Deploy agent*.
+
+. Choose a cloud provider, and select *Continue*. 
+
+
+. Select *Continue* or *Skip to Deployment*. 
++
+After deploying the Console agent, NetApp Cloud Tiering discovers the cluster, if not already discovered.
+
+. After the cluster is discovered, set up the tiering.
++
+For details about tiering, refer to https://docs.netapp.com/us-en/bluexp-tiering/index.html[NetApp Cloud Tiering documentation^].
+
