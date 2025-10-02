@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: use/capacity-reminders.html
-keywords: bluexp, lifecycle planning remediate, lifecycle planning, capacity planning, set reminders for capacity, economic efficiency
+keywords: bluexp, lifecycle planning remediate, lifecycle planning, capacity planning, set reminders for capacity, economic efficiency, capacity, tier cold, cold data
 summary: Rather than add capacity or tier cold data, you can choose no action required at this time and set reminders for yourself to check again after 30, 60, or 90 days.  
 ---
 
