@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: use/capacity-add.html
+keywords: economic efficiency remediate, lifecycle planning, capacity planning, add capacity
+summary: Lifecycle planning provides recommendations for AFF systems based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, lifecycle planning presents recommendations that satisfy the capacity growth projections and are most optimal for the asset configuration. 
+---
+
+= Add capacity
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/use/
+
+[.lead]
+Lifecycle planning provides recommendations for AFF systems based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, Lifecycle planning presents recommendations that satisfy the capacity growth projections and are most optimal for the asset configuration. 
+
+One of the recommendations might be to add capacity by adding shelves to your existing serial number. 
+
+You can easily submit the recommendation as a request for a quote or a request for alternative options to the NetApp Sales team. 
+
+
+.Steps 
+
+. link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
+. Select *Capacity planning*. 
+. Select *Evaluate Storage Options* for the asset.
+. Select *Add Capacity*.
++
+The asset's data appears. 
+
+* Review the forecast, utilization, latency trend, and IOPS trend. 
+* To obtain recommendations, select *Evaluate Storage Options*. 
++
+The Define Capacity Requirements page shows a current and projected capacity forecast and recommended add-on storage based on projected growth. 
+
+. Select one of the options on the right: 
++
+* *Recommend add-on storage based on forecasted growth* and optionally add a buffer percentage.
+* *Recommend add-on storage based on custom data growth* and enter the total add-on capacity that you want, not what is recommended. 
+
+. Select *Continue*. 
++
+A set of recommendations appears. 
+
+. Review the recommendation for the asset serial numbers you selected. 
+. Do one of the following: 
++
+* To accept the recommendation, select *Next*. The request is sent to a NetApp Sales expert who will work with you to get you the additional capacity you need. 
+* To request different options, select *Request Alternate Options*, enter your request, and select *Send email*. An email is forwarded to a NetApp Sales expert who will contact you to address capacity requirements. 
+
+. Review the request for additional capacity and select *Confirm and Submit*. 
++
+The Capacity Planning Status page appears. 
+
+. Review the status on the Capacity Planning Status page. 
+

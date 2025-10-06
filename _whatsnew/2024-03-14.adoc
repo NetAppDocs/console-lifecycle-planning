@@ -1,0 +1,10 @@
+=== Technology refresh options
+If you have existing assets in place and want to determine whether a technology needs to be updated, you can use the BlueXP ecomomic efficiency technology refresh options. You can either review a short assessment of your current workloads and get recommendations, or if you sent AutoSupport logs to NetApp within the past 90 days, the service can now provide a workload simulation to see how your workloads perform on new hardware.
+
+You can also add a workload and exclude existing workloads from the simulation. 
+
+Previously, you could only take an assessment of your assets and identify whether a technology refresh is recommended. 
+
+The feature is now part of the Tech refresh option in the left navigation. 
+
+Learn more about the https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html[Evaluate a technology refresh].

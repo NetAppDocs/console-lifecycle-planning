@@ -1,0 +1,47 @@
+---
+sidebar: sidebar
+permalink: get-started/quick-start.html
+keywords: how to get started with NetApp lifecycle planning, economic efficiency, bluexp,lifecycle planning quick start, capacity planning
+summary: Get started with the NetApp lifecycle planning service in a few steps.
+---
+
+= Quick start for Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/get-started/
+
+[.lead]
+Here's an overview of the steps needed to get started with Lifecycle planning. The links within each step take you to a page that provides more details.
+
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Review prerequisites 
+
+[role="quick-margin-para"]
+link:../get-started/prerequisites.html[Ensure your environment meets these requirements].
+ 
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Set up lifecycle planning
+
+
+[role="quick-margin-para"]
+link:../get-started/capacity-setup.html[Complete steps to set up Lifecycle planning].
+
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] What's next?
+
+
+[role="quick-margin-para"]
+After you set up Lifecycle planning, here's what you might do next.
+
+[role="quick-margin-list"]
+//* link:../use/tech-refresh.html[Take a tech refresh assessment or simulate your workloads on new hardware].
+* link:../use/capacity-review-status.html[Review capacity status].
+//* link:../use/capacity-add.html[Add capacity].
+* link:../use/capacity-tier-data.html[Tier cold data to cloud storage to free up storage].
+* link:../use/capacity-reminders.html[Optionally, set reminders to check again].
+
+
+

@@ -1,0 +1,2 @@
+=== Technology refresh
+This release of BlueXP economic efficiency includes a new option to take an assessment of your assets and identify whether a technology refresh is recommended. BlueXP economic efficiency includes a new Tech refresh option in the left navigation, new pages where you can take an assessment of your current workloads and assets, and a report that provides recommendations to you.

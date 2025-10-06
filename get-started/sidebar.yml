@@ -1,0 +1,15 @@
+section: get-started
+title: Get started
+entries:
+  - title: Learn about Lifecycle planning
+    url: /get-started/intro.html
+  - title: Prerequisites
+    url: /get-started/prerequisites.html
+  - title: Quick start
+    url: /get-started/quick-start.html
+  - title: Set up Lifecycle planning 
+    url: /get-started/capacity-setup.html 
+  - title: Access Lifecycle planning
+    url: /get-started/capacity-login.html
+  - title: FAQ
+    url: /get-started/faq.html 

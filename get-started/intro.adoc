@@ -1,0 +1,73 @@
+---
+sidebar: sidebar
+permalink: get-started/intro.html
+keywords: how NetApp lifecycle planning works, what is lifecycle planning, bluexp, hardware refresh, technology refresh, capacity, forecasted capacity, storage, forecast, economic efficiency
+summary: NetApp lifecycle planning identifies clusters with current or forecasted low capacity and provides recommendations on data tiering. 
+
+---
+
+= Learn about Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/get-started/
+
+[.lead]
+Lifecycle planning assesses your storage assets with current or forecasted low capacity and  provides recommendations on data tiering options that meet your business needs.  
+
+//Lifecycle planning assesses two vital areas of your environment: your storage assets with current or forecasted low capacity and your systems that are nearing end of life. The service provides recommendations on data tiering or additional capacity (for AFF systems) and technology refresh options that meet your business needs.  
+
+== NetApp Console
+ 
+Lifecycle planning is accessible through the NetApp Console.
+ 
+The NetApp Console provides centralized management of NetApp storage and data services across on-premises and cloud environments at enterprise grade. The Console is required to access and use NetApp data services. As a management interface, it enables you to manage many storage resources from one interface. Console administrators can control access to storage and services for all systems within the enterprise.
+ 
+You don’t need a license or subscription to start using NetApp Console and you only incur charges when you need to deploy Console agents in your cloud to ensure connectivity to your storage systems or NetApp data services. However, some NetApp data services accessible from the Console are licensed or subscription-based.
+ 
+Learn more about the https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html[NetApp Console].
+
+== What can you do with Lifecycle planning?
+
+Lifecycle planning can help you accomplish the following goals.  
+
+*Capacity information*  
+
+* Identify storage assets in your environment that are showing low capacity.
+* Review assets for current and forecasted capacity.
+//* Review CPU utilization, IOPS performance, and latency performance to determine opportunities for capacity remediation.
+//* Obtain recommendations for capacity expansion relevant to your environment.
+
+//Lifecycle planning capacity planning applies to on-premises AFF systems only (including unified AFF and all SAN array systems). 
+
+
+//*Technology refresh assessment and simulation* 
+
+//* Perform a simulation of your workloads on new hardware and download the results. 
+//* Review a list of systems that are nearing end of life or approaching other lifecycle events. 
+//* Review an assessment of your current system and obtain recommendations on technology refresh options that meet your workload, capacity, performance, and budget requirements. 
+//+
+//image:economic-efficiency-diagram-overview2.png[Diagram of the technology refresh process in NetApp lifecycle planning]
+
+
+
+
+
+== Benefits of Lifecycle planning
+
+Lifecycle planning offers the following benefits: 
+
+* Identifies systems that are approaching lifecycle events to help you plan for a technology refresh
+//* Identifies systems that are approaching lifecycle events to help you plan for a technology refresh, either by taking a short assessment or performing a workload simulation on new hardware
+//* Provides a simple process to obtain additional capacity 
+* Offers a trusted advisor's recommendations to address capacity issues in your environment
+* Reduces the time spent in planning for additional storage
+
+== Cost
+
+NetApp doesn’t charge you for using Lifecycle planning.
+
+If you decide to tier cold data to cloud storage, you’ll need to check your cloud provider for applicable charges.
+
+== Access 
+
+You can access this feature either through the NetApp Console (*Storage* > *Lifecycle planning*) or through Active IQ Digital Advisor (also known as Digital Advisor) (*Dashboard* > *Planning widget* > *Tech refresh*). 

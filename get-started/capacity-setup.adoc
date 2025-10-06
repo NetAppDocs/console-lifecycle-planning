@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: get-started/capacity-setup.html
+keywords: bluexp, lifecycle planning remediate, lifecycle planning, capacity planning, set reminders for capacity,lifecycle planning 
+summary: To use Lifecycle planning, perform a few steps to set it up.    
+---
+
+= Set up Lifecycle planning
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/get-started/
+
+[.lead]
+To use Lifecycle planning, perform a few steps to set it up.
+
+
+* Review link:../get-started/prerequisites.html[prerequisites] to ensure that your system is ready.
+* Create a Console agent in the NetApp Console.
+* Discover the cluster in the Console.
+
+You can create a Console agent directly in the Console and use that agent later in BlueXP economic efficiency. Or, you can create the Console agent in the middle of the capacity remediation process.
+
+Similarly, you can discover the cluster ahead of time using the Console or during the capacity remediation process. 
+
+
+== Create a Console agent in the NetApp Console
+A NetApp Console agent includes credentials to NetApp ONTAP machines.
+
+
+To create a Console agent in the Console before using the service, refer to the the Console documentation that describes https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[how to create a NetApp Console agent^]. 
+
+
+== Discover the cluster in the NetApp Console 
+
+Part of the setup involves identifying the cluster name, IP, user name, and password within the Console. 
+
+For instructions before using Lifecycle planning, refer to https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Discover on-premises ONTAP clusters^].
+
