@@ -13,7 +13,7 @@ summary: The NetApp lifecycle planning service identifies clusters with current 
 [.lead]
 Learn what’s new in Lifecycle planning.
 
-// tag::whats-new[]
+
 
 == 06 October 2025 
 
@@ -27,7 +27,7 @@ include::../_whatsnew/2024-05-15.adoc[]
 
 include::../_whatsnew/2024-03-14.adoc[]
 
-// end::whats-new[]
+
 
 == 08 November 2023 
 
