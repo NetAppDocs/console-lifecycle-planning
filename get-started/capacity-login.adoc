@@ -15,7 +15,7 @@ You use the NetApp Console to access Lifecycle planning.
 
 To log in to the Console, you can use your NetApp Support Site credentials. https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html[Learn more about logging in^].
 
-TIP: You can access this feature either through the NetApp Console (*Storage* > *Lifecycle planning*) or through Digital Advisor (*Dashboard* > *Planning widget* > *Tech refresh*). 
+TIP: You can access this feature either through the NetApp Console (*Storage* > *Lifecycle planning*) or through Digital Advisor (*Dashboard* > *Planning widget* > *System refresh*). 
 
 .Steps
 
@@ -25,3 +25,6 @@ The Console login page appears.
 
 . Log in to the Console. 
 . From the Console left navigation, select *Storage* > *Lifecycle planning*. 
+
+
+// 29-MAY-2026 AIQ-213609

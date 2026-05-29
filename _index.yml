@@ -2,7 +2,7 @@ indexpage:
   title: Lifecycle planning documentation
   lead: Lifecycle planning identifies clusters with current or forecasted low capacity and provides you recommendations on data tiering. 
   summary: Lifecycle planning identifies clusters with current or forecasted low capacity and provides you recommendations on data tiering. 
-  keywords: technology refresh, tech refresh, AFF, capacity, economic efficiency, bluexp, data tier, hardware end of life, lifecycle planning
+  keywords: technology refresh, system refresh, AFF, capacity, economic efficiency, bluexp, data tier, hardware end of life, lifecycle planning
   tiles:
   - title: Get started
     #image: ./media/outline_directions_run_black_18dp.png
@@ -27,7 +27,7 @@ indexpage:
       url: /use/capacity-remediate-overview.html
     - title: Review capacity status
       url: /use/capacity-review-status.html
-    - title: Add capacity
+    - title: Storage expansion
       url: /use/capacity-add.html
     - title: Tier cold data to cloud storage
       url: /use/capacity-tier-data.html

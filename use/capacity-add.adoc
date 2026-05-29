@@ -5,7 +5,7 @@ keywords: economic efficiency remediate, lifecycle planning, capacity planning, 
 summary: Lifecycle planning provides recommendations for AFF systems based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, lifecycle planning presents recommendations that satisfy the capacity growth projections and are most optimal for the asset configuration. 
 ---
 
-= Add capacity
+= Storage expansion with Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/use/
@@ -13,7 +13,7 @@ summary: Lifecycle planning provides recommendations for AFF systems based on fo
 [.lead]
 Lifecycle planning provides recommendations for AFF systems based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, Lifecycle planning presents recommendations that satisfy the capacity growth projections and are most optimal for the asset configuration. 
 
-One of the recommendations might be to add capacity by adding shelves to your existing serial number. 
+One of the recommendations might be to expand storage by adding shelves to your existing serial number. 
 
 You can easily submit the recommendation as a request for a quote or a request for alternative options to the NetApp Sales team. 
 
@@ -23,7 +23,7 @@ You can easily submit the recommendation as a request for a quote or a request f
 . link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
 . Select *Capacity planning*. 
 . Select *Evaluate Storage Options* for the asset.
-. Select *Add Capacity*.
+. Select *Storage Expansion* (previously Add Capacity).
 +
 The asset's data appears. 
 
@@ -53,3 +53,4 @@ The Capacity Planning Status page appears.
 
 . Review the status on the Capacity Planning Status page. 
 
+// 29-MAY-2026 AIQ-213609

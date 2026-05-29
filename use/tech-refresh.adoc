@@ -1,22 +1,22 @@
 ---
 sidebar: sidebar
 permalink: use/tech-refresh.html
-keywords: lifecycle planning, tech refresh, technology update, hardware assessment
-summary: If you have existing assets in place and want to have an assessment to identify whether a technology refresh is recommended, you can use  Lifecycle planning tech refresh option. The process takes an assessment of your current workloads and assets and provides recommendations to you on how to proceed. Or, you can try out a workload simulation.  
+keywords: lifecycle planning, system refresh, technology update, hardware assessment
+summary: If you have existing assets in place and want to have an assessment to identify whether a technology refresh is recommended, you can use  Lifecycle planning system refresh option. The process takes an assessment of your current workloads and assets and provides recommendations to you on how to proceed. Or, you can try out a workload simulation.  
 ---
 
-= Evaluate a technology refresh by using Lifecycle planning
+= Evaluate a system refresh by using Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/use/
 
 [.lead]
-If you have existing assets in place and want to determine whether a technology refresh is recommended, you can use the Lifecycle planning Tech refresh options. You can either review a short assessment of your current workloads and get recommendations, or if you have sent AutoSupport logs to NetApp within the past 90 days, the service can provide a workload simulation to see how your workloads perform on new hardware. 
+If you have existing assets in place and want to determine whether a system refresh is recommended, you can use the Lifecycle planning System refresh options. You can either review a short assessment of your current workloads and get recommendations, or if you have sent AutoSupport logs to NetApp within the past 90 days, the service can provide a workload simulation to see how your workloads perform on new hardware. 
 
 * <<Take a refresh assessment>>
 * <<Simulate workloads on new hardware>>
 
-Systems are considered candidates for a tech refresh based on the following: 
+Systems are considered candidates for a system refresh based on the following: 
 
 * Nearing the end of the Tech Support contract
 * Nearing the end of the hardware lifecycle
@@ -32,23 +32,22 @@ The assessment includes the following steps:
 * View the recommendations regarding appropriate products and cloud services that might improve performance in your environment. 
 
 
-
 .Steps 
 
 . link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
-. Select *Tech refresh*. 
+. Select *System refresh*. 
 +
-image:tech-refresh.png[Tech refresh page showing the Tech refresh candidates]
-. Look at the *Tech refresh candidates* tab, which lists all the systems that might benefit from a tech refresh. 
+image:tech-refresh.png[System refresh page showing the System refresh candidates]
+. Look at the *System refresh candidates* tab, which lists all the systems that might benefit from a system refresh. 
 . Select the system on which you want to obtain an assessment. 
 . From the Actions column, select *Evaluate refresh*. 
 +
-image:tech-refresh-systems.png[Systems to be included in the tech refresh]
+image:tech-refresh-systems.png[Systems to be included in the system refresh]
 . Select the system or systems on which you want the assessment performed and select *Next*. 
 . Define the requirements: 
 .. *Environments*: Select the types of environment that you want: public cloud, hybrid cloud, or on-premises. 
 +
-image:tech-refresh-requirements-environments4.png[Tech refresh Requirements page showing environment choices]
+image:tech-refresh-requirements-environments4.png[System refresh Requirements page showing environment choices]
 
 .. *Workloads*: Select all the types of workloads that you want to handle: Business critical applications, high performance analytics and computing, data lakes and media workflows, secondary storage, or less critical workloads. 
 +
@@ -77,9 +76,9 @@ You might want to review the technology refresh assessments that you already too
 
 .Steps
 
-. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *Tech refresh*. 
+. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *System refresh*. 
 
-. Select the *Tech refresh candidates* tab, which lists all the systems on which you took a technology refresh assessment. Then, from the Actions menu on the row for that system, select to view the assessments and recommendations for that system. 
+. Select the *System refresh candidates* tab, which lists all the systems on which you took a technology refresh assessment. Then, from the Actions menu on the row for that system, select to view the assessments and recommendations for that system. 
 
 . In the Evaluate refresh options page, select *View recommendation*.
 . View the refresh recommendations.
@@ -95,10 +94,10 @@ You can include or exclude specific workloads from the simulation. You can also 
 
 .Steps 
 
-. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *Tech refresh*. 
+. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *System refresh*. 
 +
-image:tech-refresh-list2.png[Tech refresh page showing the Tech refresh candidates tab]
-. Look at the *Tech refresh candidates* tab, which lists all the systems that might benefit from a tech refresh. 
+image:tech-refresh-list2.png[System refresh page showing the System refresh candidates tab]
+. Look at the *System refresh candidates* tab, which lists all the systems that might benefit from a system refresh. 
 . Select the system on which you want to obtain an assessment. 
 . In the Actions column, select *Evaluate refresh*. 
 +
@@ -142,9 +141,9 @@ You can add a workload that is not already listed to the workload simulation.
 .Steps 
 
 . link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
-. Select *Tech refresh*. 
+. Select *System refresh*. 
 +
-image:tech-refresh-list2.png[Tech refresh page showing the Tech refresh candidates tab]
+image:tech-refresh-list2.png[System refresh page showing the System refresh candidates tab]
  
 . Select the system. 
 . In the Actions column, select *Evaluate refresh*. 
@@ -169,3 +168,4 @@ NOTE: If you chose the workload size of small, typical or one that is IO intensi
 * *Random writes %*: A typical average IO size for a random write is 32K. 
 * *Sequential writes %*: A typical write pattern is 50% random and 50% sequential. 
 
+// 29-MAY-2026 AIQ-213609
