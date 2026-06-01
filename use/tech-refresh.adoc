@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: use/tech-refresh.html
 keywords: lifecycle planning, system refresh, technology update, hardware assessment
-summary: If you have existing assets in place and want to have an assessment to identify whether a technology refresh is recommended, you can use  Lifecycle planning system refresh option. The process takes an assessment of your current workloads and assets and provides recommendations to you on how to proceed. Or, you can try out a workload simulation.  
+summary: If you have existing assets in place and want to have an assessment to identify whether a system refresh is recommended, you can use Lifecycle planning system refresh option. The process takes an assessment of your current workloads and assets and provides recommendations to you on how to proceed. Or, you can try out a workload simulation.  
 ---
 
 = Evaluate a system refresh by using Lifecycle planning
@@ -70,15 +70,15 @@ image:tech-refresh-view-recommendations2.png[View refresh assessment recommendat
 
 . Select *Finish*.
 
-== View technology refresh assessments already taken
+== View system refresh assessments already taken
 
-You might want to review the technology refresh assessments that you already took and review the recommendations again.
+You might want to review the system refresh assessments that you already took and review the recommendations again.
 
 .Steps
 
 . From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *System refresh*. 
 
-. Select the *System refresh candidates* tab, which lists all the systems on which you took a technology refresh assessment. Then, from the Actions menu on the row for that system, select to view the assessments and recommendations for that system. 
+. Select the *System refresh candidates* tab, which lists all the systems on which you took a system refresh assessment. Then, from the Actions menu on the row for that system, select to view the assessments and recommendations for that system. 
 
 . In the Evaluate refresh options page, select *View recommendation*.
 . View the refresh recommendations.
