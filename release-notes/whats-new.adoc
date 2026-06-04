@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: release-notes/whats-new.html
 keywords: economic efficiency faq, bluexp, lifecycle planning frequently asked questions
-summary: The NetApp lifecycle planning service identifies clusters with current or forecasted low capacity and provides you recommendations on data tiering or additional capacity (for AFF systems). The service also provides technology refresh recommendations on systems that are nearing end of life. 
+summary: The NetApp lifecycle planning service identifies clusters with current or forecasted low capacity and provides you recommendations on data tiering or additional capacity (for AFF systems). The service also provides system refresh recommendations on systems that are nearing end of life. 
 ---
 
 = What's new in Lifecycle planning
@@ -13,7 +13,9 @@ summary: The NetApp lifecycle planning service identifies clusters with current 
 [.lead]
 Learn what’s new in Lifecycle planning.
 
+== 03 June 2026
 
+include::../_whatsnew/2026-06-03.adoc[]
 
 == 06 October 2025 
 
@@ -27,12 +29,9 @@ include::../_whatsnew/2024-05-15.adoc[]
 
 include::../_whatsnew/2024-03-14.adoc[]
 
-
-
 == 08 November 2023 
 
 include::../_whatsnew/2023-11-08.adoc[]
-
 
 == 02 April 2023 
 
@@ -40,3 +39,6 @@ include::../_whatsnew/2023-11-08.adoc[]
 The new BlueXP economic efficiency identifies storage assets with current or forecasted low capacity and provides recommendations on data tiering or additional capacity for on-premises AFF systems.
 
 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.html[Learn more about NetApp Economic Efficiency]. 
+
+
+// 29-MAY-2026 AIQ-213609
