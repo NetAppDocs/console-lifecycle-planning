@@ -10,5 +10,6 @@ summary: NetApp provides support for NetApp Console in a variety of ways. Extens
 :imagesdir: ../media/
 
 [.lead]
-include::https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/_include/get-help.adoc[]
+include::https://raw.githubusercontent.com/NetAppDocs/console-family/main/_include/get-help.adoc[]
 
+// 29-MAY-2026 error in the path (bluexp-family instead of console-family)

@@ -12,7 +12,7 @@ summary: NetApp lifecycle planning identifies clusters with current or forecaste
 :imagesdir: ../media/get-started/
 
 [.lead]
-Lifecycle planning assesses your storage assets with current or forecasted low capacity and  provides recommendations on data tiering options that meet your business needs.  
+Lifecycle planning assesses your storage assets with current or forecasted low capacity and provides recommendations on data tiering options that meet your business needs.  
 
 //Lifecycle planning assesses two vital areas of your environment: your storage assets with current or forecasted low capacity and your systems that are nearing end of life. The service provides recommendations on data tiering or additional capacity (for AFF systems) and technology refresh options that meet your business needs.  
 
@@ -56,8 +56,8 @@ Lifecycle planning can help you accomplish the following goals.
 
 Lifecycle planning offers the following benefits: 
 
-* Identifies systems that are approaching lifecycle events to help you plan for a technology refresh
-//* Identifies systems that are approaching lifecycle events to help you plan for a technology refresh, either by taking a short assessment or performing a workload simulation on new hardware
+* Identifies systems that are approaching lifecycle events to help you plan for a system refresh
+//* Identifies systems that are approaching lifecycle events to help you plan for a system refresh, either by taking a short assessment or performing a workload simulation on new hardware
 //* Provides a simple process to obtain additional capacity 
 * Offers a trusted advisor's recommendations to address capacity issues in your environment
 * Reduces the time spent in planning for additional storage
@@ -70,4 +70,6 @@ If you decide to tier cold data to cloud storage, you’ll need to check your cl
 
 == Access 
 
-You can access this feature either through the NetApp Console (*Storage* > *Lifecycle planning*) or through Active IQ Digital Advisor (also known as Digital Advisor) (*Dashboard* > *Planning widget* > *Tech refresh*). 
+You can access this feature either through the NetApp Console (*Storage* > *Lifecycle planning*) or through Active IQ Digital Advisor (also known as Digital Advisor) (*Dashboard* > *Planning widget* > *System refresh*). 
+
+// 29-MAY-2026 AIQ-213609

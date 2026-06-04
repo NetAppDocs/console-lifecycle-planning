@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: release-notes/limitations.html
-keywords: economic efficiency, bluexp, lifecycle planning, 
+keywords: economic efficiency, bluexp, lifecycle planning, netapp console
 summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the service, or that do not interoperate correctly with it.
 ---
 
-= Limitations
+= Limitations of Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/
@@ -13,4 +13,4 @@ summary: Known limitations identify platforms, devices, or functions that are no
 [.lead]
 Known limitations identify platforms, devices, or functions that are not supported by this release of the service, or that do not interoperate correctly with it. 
 
-
+// 29-MAY-2026 AIQ-213609
