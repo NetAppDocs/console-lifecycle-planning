@@ -37,7 +37,7 @@ The assessment includes the following steps:
 . link:../get-started/capacity-login.html[Log in to the NetApp Console]. 
 . Select *System refresh*. 
 +
-image:tech-refresh.png[System refresh page showing the System refresh candidates]
+image:tech-refresh.png[System refresh page showing the system refresh candidates]
 . Look at the *System refresh candidates* tab, which lists all the systems that might benefit from a system refresh. 
 . Select the system on which you want to obtain an assessment. 
 . From the Actions column, select *Evaluate refresh*. 
@@ -72,11 +72,11 @@ image:tech-refresh-view-recommendations2.png[View refresh assessment recommendat
 
 == View system refresh assessments already taken
 
-You might want to review the system refresh assessments that you already took and review the recommendations again.
+You can review the system refresh assessments that you already took and review the recommendations again.
 
 .Steps
 
-. From the NetApp Console left navigation, select *Governance* > *Lifecycle planning* > *System refresh*. 
+. From the NetApp Console left navigation, select *Storage* > *Lifecycle planning* > *System refresh*. 
 
 . Select the *System refresh candidates* tab, which lists all the systems on which you took a system refresh assessment. Then, from the Actions menu on the row for that system, select to view the assessments and recommendations for that system. 
 
