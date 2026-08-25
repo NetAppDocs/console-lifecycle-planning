@@ -5,7 +5,7 @@ keywords: economic efficiency remediate, lifecycle planning, capacity planning, 
 summary: Lifecycle planning provides recommendations for AFF systems based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, lifecycle planning presents recommendations that satisfy the capacity growth projections and are most optimal for the asset configuration. 
 ---
 
-= Storage expansion with Lifecycle planning
+= Expand storage capacity with Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/use/
