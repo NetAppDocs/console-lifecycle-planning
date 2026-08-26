@@ -5,7 +5,7 @@ keywords: economic efficiency faq, lifecycle planning frequently asked questions
 summary: This FAQ can help if you're just looking for a quick answer to a question.
 ---
 
-= Frequently asked questions for Lifecycle planning
+= FAQ for Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/
