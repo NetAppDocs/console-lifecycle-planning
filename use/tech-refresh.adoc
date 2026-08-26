@@ -5,7 +5,7 @@ keywords: lifecycle planning, system refresh, technology update, hardware assess
 summary: If you have existing assets in place and want to have an assessment to identify whether a system refresh is recommended, you can use Lifecycle planning system refresh option. The process takes an assessment of your current workloads and assets and provides recommendations to you on how to proceed. Or, you can try out a workload simulation.  
 ---
 
-= Evaluate a system refresh by using Lifecycle planning
+= Evaluate a system refresh with Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/use/

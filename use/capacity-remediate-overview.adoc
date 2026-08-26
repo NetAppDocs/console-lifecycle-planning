@@ -5,7 +5,7 @@ keywords: lifecycle planning remediate, lifecycle planning, capacity planning, e
 summary: NetApp lifecycle planning Capacity planning uses AI to forecast data growth to help in the planning process. 
 ---
 
-= Review and remediate capacity issues identified by Lifecycle planning
+= Capacity review and remediation workflow for Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/use/
