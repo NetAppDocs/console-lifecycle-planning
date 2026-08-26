@@ -5,7 +5,7 @@ keywords: economic efficiency remediate, economic efficiency, capacity planning,
 summary: Lifecycle planning provides recommendations based on forecasted data growth. You can accept the forecast or enter your own forecast. Based on this, the service presents recommendations that satisfy the projected capacity growth and are most optimal for the asset configuration. One of the recommendations might be to tier cold data to cloud storage to free up capacity. This recommendation initiates the connection to NetApp Cloud Tiering, another  product.  
 ---
 
-= Tier cold data to cloud storage and free up storage identified by Lifecycle planning
+= Tier cold data to cloud storage with Lifecycle planning
 :hardbreaks:
 :icons: font
 :imagesdir: ../media/use/
