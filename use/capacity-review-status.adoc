@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: use/capacity-review-status.html
 keywords: lifecycle planning remediate, lifecycle planning, capacity planning, forecast, capacity, storage, economic efficiency
-summary: If your clusters are currently below or forecasted to be below the threshold of 70% capacity, Lifecycle planning identifies those as low-capacity resources and alerts you.
+summary: "If your clusters are currently below or forecasted to be below the threshold of 70 percent capacity, Lifecycle planning identifies those as low-capacity resources and alerts you."
 ---
 
 = Review capacity status in Lifecycle planning
